@@ -1,0 +1,99 @@
+body{
+	background-color: white;
+	box-sizing: border-box;
+}
+
+div, article, section, footer, nav, aside, header{
+	box-sizing: border-box;
+}
+
+
+h1{
+	color:#333;
+	background-color: red;
+	font-family: 'Ceviche One', cursive;	font-size: 4em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.subtitulo{
+	color:#D99;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+}
+
+.parrafo{
+	color:rgba(0,0,0,0.3);
+	background-color: white;
+	font-size: 18px;
+	line-height: 20px;
+	font-family: 'Josefin Slab', serif;
+	font-style: italic;
+	/*comentario*/
+}
+
+#titulo2{
+	color:#000;
+	background-color: white;
+	font-size: 100px;
+}
+
+
+
+.link{
+	text-decoration: none;
+	color: black;
+	border: 1px solid green;
+	border-radius: 5px; /*50%*/
+
+}
+
+.link:hover{
+	color: red;
+	background-color: blue;
+	cursor: crosshair;
+}
+
+.link:active{
+
+}
+
+
+
+
+.link2{
+	text-decoration: none;
+	color: black;
+	border: 1px dashed blue;
+	border-radius: 5px; /*50%*/
+	background: url("http://coderhouse.io/images/isologo-coderhouse-negro.png");
+	background-repeat: no-repeat;
+	line-height: 50px;
+
+}
+
+
+.caja1{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	border: 4px solid red;
+	margin: 20px;
+	padding: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+/*todos los li que esten adentro de ul y adentro de nav...merca herencia*/
+nav ul li{
+	display: inline-block;
+	margin: 0 20px;/*arriba y abajo 0 y 20px derecha e izquierda*/
+}
+
+.medio{
+	position: relative;
+	top: 50px;
+	left: 50px;
+	background-color: green;
+}
